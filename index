@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>クイズサイト</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>クイズ</h1>
+    <div id="question"></div>
+    <input type="text" id="answerInput" placeholder="答えを入力" />
+    <button id="submitBtn">答える</button>
+    <div id="result"></div>
+    <button id="nextBtn" style="display: none;">次の問題へ</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
